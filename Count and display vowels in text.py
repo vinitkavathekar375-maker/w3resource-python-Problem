@@ -1,0 +1,10 @@
+def str(s):
+    count = 0
+    for i in s:
+        if i in 'aeiou':
+            print(list(i),end="")
+            count = count+1
+    print()
+    return count
+print(str(input()))
+    
