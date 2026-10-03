@@ -1,0 +1,5 @@
+num = input("Enter the no.")
+ascending = "".join(sorted(num))
+descending = "".join(sorted(num, reverse = True))
+print("Ascending sort:",ascending)
+print("Descending sort:",descending)
